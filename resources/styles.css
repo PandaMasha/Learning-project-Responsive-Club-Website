@@ -1,0 +1,121 @@
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: lightsalmon;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(13, 179, 230);
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+
+  .intro {
+    font-size: 3rem;
+  }
+
+  .intro h1 {
+    font-size: 7rem;
+    font-weight: bolder;
+    color:antiquewhite;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+
+  }
+
+  .continue h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(9, 125, 225)
+  }
+
+  .continue p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(9, 125, 225)
+  }
+  .photos img,
+  .pics img {
+    width: 30%;
+    margin: 1%;
+    justify-content: center;
+  }
+
+  .sentation {
+    height: fit-content;
+    padding: 0 1rem;
+    margin: 1rem;
+    padding-top: 1rem;
+    color: yellow;
+  }
+
+  .sentation h2 {
+    font-size: 3rem;
+    color: peachpuff
+  }
+
+  .sentation p {
+    font-style: italic;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  #last {
+    display:block;
+    margin: auto;
+    width: 45%;
+  }
+
+  h2 {
+    font-size: 3rem;
+    color: peachpuff;
+    text-align: center;
+  }
+
+  div.credits {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1048px) {
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
